@@ -1,0 +1,390 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`History View should render with array of items 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "flex": 1,
+      "paddingTop": 0,
+    }
+  }
+>
+  <View
+    centerH={true}
+    centerV={true}
+    marginB-25={true}
+    marginT-10={true}
+    row={true}
+    style={
+      Array [
+        undefined,
+        undefined,
+        undefined,
+        Object {},
+        Object {
+          "marginBottom": 25,
+          "marginTop": 10,
+        },
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text
+      darkBlue={true}
+      h1={true}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "textAlign": "left",
+          },
+          Object {
+            "fontFamily": "Muli",
+            "fontSize": 20,
+            "fontWeight": "bold",
+          },
+          Object {
+            "color": "#2E374D",
+          },
+          Object {},
+          undefined,
+          undefined,
+        ]
+      }
+    >
+      History
+    </Text>
+  </View>
+  <RCTScrollView
+    style={
+      Object {
+        "paddingHorizontal": 15,
+      }
+    }
+  >
+    <View>
+      <View
+        accessible={true}
+        focusable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "flexDirection": "row",
+            "marginVertical": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <BVLinearGradient
+          colors={
+            Array [
+              4294947695,
+              4294933308,
+            ]
+          }
+          endPoint={
+            Object {
+              "x": 1,
+              "y": 0,
+            }
+          }
+          locations={null}
+          startPoint={
+            Object {
+              "x": 0,
+              "y": 1,
+            }
+          }
+          style={
+            Object {
+              "alignItems": "center",
+              "borderRadius": 30,
+              "height": 60,
+              "justifyContent": "center",
+              "width": 60,
+            }
+          }
+        >
+          <Image
+            accessibilityRole="image"
+            accessible={true}
+            assetGroup="types"
+            assetName="text-white"
+            source={
+              Object {
+                "testUri": "../../../assets/icons/types/text-white.png",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "tintColor": undefined,
+                },
+                undefined,
+                undefined,
+                undefined,
+                undefined,
+              ]
+            }
+          />
+        </BVLinearGradient>
+        <View
+          flex-1={true}
+          paddingH-15={true}
+          style={
+            Array [
+              undefined,
+              undefined,
+              Object {
+                "flex": 1,
+              },
+              Object {
+                "paddingHorizontal": 15,
+              },
+              Object {},
+              Object {},
+              undefined,
+            ]
+          }
+        >
+          <View
+            centerV={true}
+            row={true}
+            spread={true}
+            style={
+              Array [
+                undefined,
+                undefined,
+                undefined,
+                Object {},
+                Object {},
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                },
+                undefined,
+              ]
+            }
+          >
+            <Text
+              h3={true}
+              marginB-5={true}
+              marginR-15={true}
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "textAlign": "left",
+                  },
+                  Object {
+                    "fontFamily": "Muli",
+                    "fontSize": 16,
+                    "fontWeight": "bold",
+                    "lineHeight": 22,
+                  },
+                  undefined,
+                  Object {
+                    "marginBottom": 5,
+                    "marginRight": 15,
+                  },
+                  undefined,
+                  undefined,
+                ]
+              }
+            >
+              qrcode
+            </Text>
+            <View
+              accessible={true}
+              focusable={true}
+              isTVSelectable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "flex-start",
+                  "height": 25,
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "position": "absolute",
+                  "right": -25,
+                  "width": 25,
+                }
+              }
+            >
+              <Image
+                accessibilityRole="image"
+                accessible={true}
+                assetGroup="icons"
+                assetName="delete"
+                source={
+                  Object {
+                    "testUri": "../../../assets/icons/delete.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "tintColor": undefined,
+                    },
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                  ]
+                }
+              />
+            </View>
+          </View>
+          <Text
+            gray={true}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "textAlign": "left",
+                },
+                undefined,
+                Object {
+                  "color": "#CBCBCB",
+                },
+                Object {},
+                undefined,
+                undefined,
+              ]
+            }
+          >
+            15.09.2017
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</RCTSafeAreaView>
+`;
+
+exports[`History View should render without items 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "flex": 1,
+      "paddingTop": 0,
+    }
+  }
+>
+  <View
+    centerH={true}
+    centerV={true}
+    marginB-25={true}
+    marginT-10={true}
+    row={true}
+    style={
+      Array [
+        undefined,
+        undefined,
+        undefined,
+        Object {},
+        Object {
+          "marginBottom": 25,
+          "marginTop": 10,
+        },
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text
+      darkBlue={true}
+      h1={true}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "textAlign": "left",
+          },
+          Object {
+            "fontFamily": "Muli",
+            "fontSize": 20,
+            "fontWeight": "bold",
+          },
+          Object {
+            "color": "#2E374D",
+          },
+          Object {},
+          undefined,
+          undefined,
+        ]
+      }
+    >
+      History
+    </Text>
+  </View>
+  <RCTScrollView
+    style={
+      Object {
+        "paddingHorizontal": 15,
+      }
+    }
+  >
+    <View>
+      <Text
+        default={true}
+        gray={true}
+        marginT-20={true}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "textAlign": "left",
+            },
+            Object {
+              "fontFamily": "Muli",
+            },
+            Object {
+              "color": "#CBCBCB",
+            },
+            Object {
+              "marginTop": 20,
+            },
+            Object {
+              "textAlign": "center",
+            },
+            undefined,
+          ]
+        }
+      >
+        You don't have any scanned code
+      </Text>
+    </View>
+  </RCTScrollView>
+</RCTSafeAreaView>
+`;

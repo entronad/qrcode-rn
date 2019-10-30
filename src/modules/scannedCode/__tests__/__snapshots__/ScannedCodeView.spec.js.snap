@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ScannedCode => CopyButton renders as expected 1`] = `ShallowWrapper {}`;
+
+exports[`ScannedCode => CustomInput renders as expected 1`] = `ShallowWrapper {}`;
+
+exports[`ScannedCode => OpenButton renders as expected 1`] = `ShallowWrapper {}`;
+
+exports[`ScannedCode => ShareButton renders as expected 1`] = `ShallowWrapper {}`;
+
+exports[`ScannedCode renders as expected 1`] = `ShallowWrapper {}`;

@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Component renders as expected 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  isTVSelectable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "borderRadius": 50,
+      "opacity": 1,
+      "shadowColor": "#FC6821",
+      "shadowOffset": Object {
+        "height": 1,
+        "width": 0,
+      },
+      "shadowOpacity": 0.22,
+      "shadowRadius": 2.22,
+    }
+  }
+>
+  <BVLinearGradient
+    colors={
+      Array [
+        4294947695,
+        4294933308,
+      ]
+    }
+    endPoint={
+      Object {
+        "x": 1,
+        "y": 0,
+      }
+    }
+    locations={null}
+    startPoint={
+      Object {
+        "x": 0,
+        "y": 1,
+      }
+    }
+    style={
+      Array [
+        Object {
+          "borderRadius": 50,
+          "padding": 20,
+        },
+        Object {
+          "borderRadius": 5,
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text
+      h2={true}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "textAlign": "left",
+          },
+          Object {
+            "fontFamily": "Muli-SemiBold",
+            "fontSize": 18,
+            "lineHeight": 22,
+          },
+          undefined,
+          Object {},
+          undefined,
+          Array [
+            Object {
+              "color": "#FFFFFF",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#FC6821",
+            },
+          ],
+        ]
+      }
+    >
+      hello
+    </Text>
+  </BVLinearGradient>
+</View>
+`;

@@ -1,0 +1,794 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pricing View should render properly 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView
+    bounces={false}
+    contentContainerStyle={
+      Object {
+        "flex": 1,
+      }
+    }
+    showsVerticalScrollIndicator={false}
+  >
+    <View>
+      <View
+        flex-1={true}
+        spread={true}
+        style={
+          Array [
+            undefined,
+            undefined,
+            Object {
+              "flex": 1,
+            },
+            Object {},
+            Object {},
+            Object {
+              "justifyContent": "space-between",
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              undefined,
+              undefined,
+              Object {
+                "flex": 1,
+              },
+              Object {},
+              Object {},
+              Object {},
+              undefined,
+            ]
+          }
+        >
+          <View
+            centerH={true}
+            marginT-25={true}
+            style={
+              Array [
+                undefined,
+                undefined,
+                undefined,
+                Object {},
+                Object {
+                  "marginTop": 25,
+                },
+                Object {
+                  "alignItems": "center",
+                },
+                undefined,
+              ]
+            }
+          >
+            <Image
+              accessibilityRole="image"
+              accessible={true}
+              assetGroup="images"
+              assetName="pricing"
+              resizeMode="contain"
+              source={
+                Object {
+                  "testUri": "../../../assets/images/pricing.png",
+                }
+              }
+              style={
+                Array [
+                  Object {
+                    "tintColor": undefined,
+                  },
+                  undefined,
+                  undefined,
+                  undefined,
+                  Object {
+                    "height": 220,
+                    "width": 250,
+                  },
+                ]
+              }
+            />
+          </View>
+          <Text
+            h2={true}
+            marginB-25={true}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "textAlign": "left",
+                },
+                Object {
+                  "fontFamily": "Muli-SemiBold",
+                  "fontSize": 18,
+                  "lineHeight": 22,
+                },
+                undefined,
+                Object {
+                  "marginBottom": 25,
+                },
+                Object {
+                  "textAlign": "center",
+                },
+                undefined,
+              ]
+            }
+          >
+            Pro Version
+          </Text>
+          <View
+            marginB-15={true}
+            paddingH-50={true}
+            row={true}
+            style={
+              Array [
+                undefined,
+                undefined,
+                undefined,
+                Object {
+                  "paddingHorizontal": 50,
+                },
+                Object {
+                  "marginBottom": 15,
+                },
+                Object {
+                  "flexDirection": "row",
+                },
+                undefined,
+              ]
+            }
+          >
+            <Image
+              accessibilityRole="image"
+              accessible={true}
+              assetGroup="icons"
+              assetName="check"
+              resizeMode="contain"
+              source={
+                Object {
+                  "testUri": "../../../assets/icons/check.png",
+                }
+              }
+              style={
+                Array [
+                  Object {
+                    "tintColor": undefined,
+                  },
+                  undefined,
+                  undefined,
+                  undefined,
+                  Object {
+                    "height": 16,
+                    "width": 16,
+                  },
+                ]
+              }
+            />
+            <Text
+              default={true}
+              marginL-15={true}
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "textAlign": "left",
+                  },
+                  Object {
+                    "fontFamily": "Muli",
+                  },
+                  undefined,
+                  Object {
+                    "marginLeft": 15,
+                  },
+                  undefined,
+                  undefined,
+                ]
+              }
+            >
+              Unlimited history
+            </Text>
+          </View>
+          <View
+            marginB-15={true}
+            paddingH-50={true}
+            row={true}
+            style={
+              Array [
+                undefined,
+                undefined,
+                undefined,
+                Object {
+                  "paddingHorizontal": 50,
+                },
+                Object {
+                  "marginBottom": 15,
+                },
+                Object {
+                  "flexDirection": "row",
+                },
+                undefined,
+              ]
+            }
+          >
+            <Image
+              accessibilityRole="image"
+              accessible={true}
+              assetGroup="icons"
+              assetName="check"
+              resizeMode="contain"
+              source={
+                Object {
+                  "testUri": "../../../assets/icons/check.png",
+                }
+              }
+              style={
+                Array [
+                  Object {
+                    "tintColor": undefined,
+                  },
+                  undefined,
+                  undefined,
+                  undefined,
+                  Object {
+                    "height": 16,
+                    "width": 16,
+                  },
+                ]
+              }
+            />
+            <Text
+              default={true}
+              marginL-15={true}
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "textAlign": "left",
+                  },
+                  Object {
+                    "fontFamily": "Muli",
+                  },
+                  undefined,
+                  Object {
+                    "marginLeft": 15,
+                  },
+                  undefined,
+                  undefined,
+                ]
+              }
+            >
+              Codes customization
+            </Text>
+          </View>
+          <View
+            marginB-15={true}
+            paddingH-50={true}
+            row={true}
+            style={
+              Array [
+                undefined,
+                undefined,
+                undefined,
+                Object {
+                  "paddingHorizontal": 50,
+                },
+                Object {
+                  "marginBottom": 15,
+                },
+                Object {
+                  "flexDirection": "row",
+                },
+                undefined,
+              ]
+            }
+          >
+            <Image
+              accessibilityRole="image"
+              accessible={true}
+              assetGroup="icons"
+              assetName="check"
+              resizeMode="contain"
+              source={
+                Object {
+                  "testUri": "../../../assets/icons/check.png",
+                }
+              }
+              style={
+                Array [
+                  Object {
+                    "tintColor": undefined,
+                  },
+                  undefined,
+                  undefined,
+                  undefined,
+                  Object {
+                    "height": 16,
+                    "width": 16,
+                  },
+                ]
+              }
+            />
+            <Text
+              default={true}
+              marginL-15={true}
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "textAlign": "left",
+                  },
+                  Object {
+                    "fontFamily": "Muli",
+                  },
+                  undefined,
+                  Object {
+                    "marginLeft": 15,
+                  },
+                  undefined,
+                  undefined,
+                ]
+              }
+            >
+              Batch scan
+            </Text>
+          </View>
+          <View
+            paddingH-50={true}
+            row={true}
+            style={
+              Array [
+                undefined,
+                undefined,
+                undefined,
+                Object {
+                  "paddingHorizontal": 50,
+                },
+                Object {},
+                Object {
+                  "flexDirection": "row",
+                },
+                undefined,
+              ]
+            }
+          >
+            <Image
+              accessibilityRole="image"
+              accessible={true}
+              assetGroup="icons"
+              assetName="check"
+              resizeMode="contain"
+              source={
+                Object {
+                  "testUri": "../../../assets/icons/check.png",
+                }
+              }
+              style={
+                Array [
+                  Object {
+                    "tintColor": undefined,
+                  },
+                  undefined,
+                  undefined,
+                  undefined,
+                  Object {
+                    "height": 16,
+                    "width": 16,
+                  },
+                ]
+              }
+            />
+            <Text
+              deafault={true}
+              marginL-15={true}
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "textAlign": "left",
+                  },
+                  undefined,
+                  undefined,
+                  Object {
+                    "marginLeft": 15,
+                  },
+                  undefined,
+                  undefined,
+                ]
+              }
+            >
+              Advanced codes generation
+            </Text>
+          </View>
+          <View
+            center={true}
+            marginV-20={true}
+            paddingH-50={true}
+            paddingV-20={true}
+            style={
+              Array [
+                undefined,
+                undefined,
+                undefined,
+                Object {
+                  "paddingHorizontal": 50,
+                  "paddingVertical": 20,
+                },
+                Object {
+                  "marginVertical": 20,
+                },
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                },
+                Object {
+                  "flexGrow": 1,
+                },
+              ]
+            }
+          >
+            <View
+              accessible={true}
+              focusable={false}
+              isTVSelectable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "borderRadius": 50,
+                  "opacity": 1,
+                  "shadowColor": "#FC6821",
+                  "shadowOffset": Object {
+                    "height": 1,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.22,
+                  "shadowRadius": 2.22,
+                }
+              }
+            >
+              <BVLinearGradient
+                colors={
+                  Array [
+                    4294947695,
+                    4294933308,
+                  ]
+                }
+                endPoint={
+                  Object {
+                    "x": 1,
+                    "y": 0,
+                  }
+                }
+                locations={null}
+                startPoint={
+                  Object {
+                    "x": 0,
+                    "y": 1,
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "borderRadius": 50,
+                      "padding": 20,
+                    },
+                    undefined,
+                    Object {
+                      "minWidth": "100%",
+                    },
+                  ]
+                }
+              >
+                <Text
+                  h2={true}
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "transparent",
+                        "textAlign": "left",
+                      },
+                      Object {
+                        "fontFamily": "Muli-SemiBold",
+                        "fontSize": 18,
+                        "lineHeight": 22,
+                      },
+                      undefined,
+                      Object {},
+                      undefined,
+                      Array [
+                        Object {
+                          "color": "#FFFFFF",
+                          "textAlign": "center",
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                >
+                  Purchase for 4.99
+                </Text>
+              </BVLinearGradient>
+            </View>
+            <View
+              marginT-10={true}
+              row={true}
+              style={
+                Array [
+                  undefined,
+                  undefined,
+                  undefined,
+                  Object {},
+                  Object {
+                    "marginTop": 10,
+                  },
+                  Object {
+                    "flexDirection": "row",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Text
+                default={true}
+                gray={true}
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "textAlign": "left",
+                    },
+                    Object {
+                      "fontFamily": "Muli",
+                    },
+                    Object {
+                      "color": "#CBCBCB",
+                    },
+                    Object {},
+                    undefined,
+                    Object {
+                      "fontSize": 14,
+                    },
+                  ]
+                }
+              >
+                Also you can
+              </Text>
+              <View
+                accessible={true}
+                focusable={false}
+                isTVSelectable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Text
+                  default={true}
+                  primary={true}
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "transparent",
+                        "textAlign": "left",
+                      },
+                      Object {
+                        "fontFamily": "Muli",
+                      },
+                      Object {
+                        "color": "#FC6821",
+                      },
+                      Object {},
+                      undefined,
+                      Object {
+                        "fontSize": 14,
+                      },
+                    ]
+                  }
+                >
+                   
+                  restore
+                   
+                </Text>
+              </View>
+              <Text
+                default={true}
+                gray={true}
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "textAlign": "left",
+                    },
+                    Object {
+                      "fontFamily": "Muli",
+                    },
+                    Object {
+                      "color": "#CBCBCB",
+                    },
+                    Object {},
+                    undefined,
+                    Object {
+                      "fontSize": 14,
+                    },
+                  ]
+                }
+              >
+                your payment
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          centerH={true}
+          marginB-10={true}
+          paddingH-50={true}
+          style={
+            Array [
+              undefined,
+              undefined,
+              undefined,
+              Object {
+                "paddingHorizontal": 50,
+              },
+              Object {
+                "marginBottom": 10,
+              },
+              Object {
+                "alignItems": "center",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            row={true}
+            style={
+              Array [
+                undefined,
+                undefined,
+                undefined,
+                Object {},
+                Object {},
+                Object {
+                  "flexDirection": "row",
+                },
+                undefined,
+              ]
+            }
+          >
+            <Text
+              defaultLight={true}
+              gray={true}
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "textAlign": "left",
+                  },
+                  Object {
+                    "fontFamily": undefined,
+                    "fontSize": 11,
+                    "fontWeight": "300",
+                    "lineHeight": 12,
+                  },
+                  Object {
+                    "color": "#CBCBCB",
+                  },
+                  Object {},
+                  undefined,
+                  undefined,
+                ]
+              }
+              text100={true}
+            >
+              Check out the
+            </Text>
+            <View
+              accessible={true}
+              focusable={true}
+              isTVSelectable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+            >
+              <Text
+                defaultLight={true}
+                primary={true}
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "textAlign": "left",
+                    },
+                    Object {
+                      "fontFamily": undefined,
+                      "fontSize": 11,
+                      "fontWeight": "300",
+                      "lineHeight": 12,
+                    },
+                    Object {
+                      "color": "#FC6821",
+                    },
+                    Object {},
+                    Object {
+                      "textAlign": "center",
+                    },
+                    undefined,
+                  ]
+                }
+                text100={true}
+              >
+                 
+                Privacy policy
+                 
+              </Text>
+            </View>
+          </View>
+          <Text
+            defaultLight={true}
+            gray={true}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "textAlign": "left",
+                },
+                Object {
+                  "fontFamily": undefined,
+                  "fontSize": 11,
+                  "fontWeight": "300",
+                  "lineHeight": 12,
+                },
+                Object {
+                  "color": "#CBCBCB",
+                },
+                Object {},
+                Object {
+                  "textAlign": "center",
+                },
+                undefined,
+              ]
+            }
+            text100={true}
+          >
+            Payment will be charged to your iTunes Account at confirmation of purchase
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</RCTSafeAreaView>
+`;
